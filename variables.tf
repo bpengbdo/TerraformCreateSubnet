@@ -21,10 +21,3 @@ variable "location" {
   type = string
   default = "eastus"
 }
-
-variable "nestedTest" {
-  type = object({
-    name    = string
-    address = string
-  })
-}
