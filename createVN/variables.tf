@@ -21,14 +21,3 @@ variable "location" {
   type = string
   default = ""
 }
-
-variable "nestedTest" {
-  type = object({
-    name    = string
-    address = string
-  })
-}
-variable "booleanTest" {
-  description = "If set to true, it will create vm"
-   type   = bool
-}
