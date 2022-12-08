@@ -28,3 +28,7 @@ variable "nestedTest" {
     address = string
   })
 }
+variable "booleanTest" {
+  description = "If set to true, it will create vm"
+   type   = bool
+}
